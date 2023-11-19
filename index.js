@@ -11,8 +11,7 @@ const loginRoute = require('./routes/auth/loginRoute');
 const profileRoute = require('./routes/auth/profileRoute');
 const postRoute = require('./routes/postRoute');
 const categoryRoute = require('./routes/categoryRoute'); // Add this line
-const path = require('path');
-const fs = require('fs');
+
 app.use("/api/signup",signUpRoutes);
 app.use("/api/login",loginRoute);
 app.use("/api/profileupdate",profileRoute);
